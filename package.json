@@ -4,6 +4,7 @@
   "description": "testing",
   "main": "app.js",
   "dependencies": {
+    "antd": "^2.8.1",
     "koa": "^2.0.1",
     "koa-route": "^3.2.0",
     "koa-router": "^7.0.1",
@@ -13,7 +14,10 @@
     "react-dom": "^15.4.2",
     "react-router": "^3.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-plugin-import": "^1.1.1",
+    "dva": "^1.2.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node --harmony ./koa/app.js"
